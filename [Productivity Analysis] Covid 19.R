@@ -521,5 +521,3 @@ ggplot(mi.plot, aes(x = period, y = MI, colour = nation, group = nation)) +
   geom_point(size = 2) + geom_line(size = 1) + labs(y = "MI") +
   geom_hline(yintercept=1, linetype='dashed', color='black', size=0.3) +
   scale_shape_discrete(labels=nation) + scale_color_manual(values = c(brewer.pal(7, "Dark2"), brewer.pal(6, "Set2"), brewer.pal(3, "Accent")))
-
-
