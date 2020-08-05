@@ -1,4 +1,3 @@
-# Test commit
 # Load library
 pkgs <- c("rvest", "dplyr", "httr", "RSelenium", "XML")
 sapply(pkgs, require, character.only = T)
